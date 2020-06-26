@@ -1,0 +1,75 @@
+:root {
+  --main-color: #ed2148;
+  --main-bg: #000000;
+  --mpt-color: #0c4da1;
+  --ok-color: #f5c614;
+  --onepay-color: #70c056;
+  --kbz-color: #0053ab;
+  --text-whit: #ffffff;
+}
+
+body {
+  background-color: var(--main-bg);
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+  object-fit: cover;
+}
+
+.pack-item {
+  margin: 0px auto;
+  display: block;
+}
+
+.pack-logo {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  overflow: hidden;
+  background-color: var(--text-whit);
+}
+
+.pack-lable {
+  width: 100%;
+}
+
+.pack-text {
+  color: var(--text-whit);
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font: 22px/30px "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+}
+
+.mpt-pay {
+  background-color: var(--mpt-color);
+}
+.ok-pay {
+  background-color: var(--ok-color);
+}
+.one-pay {
+  background-color: var(--onepay-color);
+}
+.kbz-pay {
+  background-color: var(--kbz-color);
+}
+
+:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.web {
+  width: 475px;
+  height: auto;
+  object-fit: cover;
+  bottom: 0;
+}

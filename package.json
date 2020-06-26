@@ -1,0 +1,19 @@
+{
+  "name": "tayplus-plan",
+  "version": "1.0.0",
+  "description": "Tay Plus Package Buy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kotmth/tayplus-plan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kotmth/tayplus-plan/issues"
+  },
+  "homepage": "https://github.com/kotmth/tayplus-plan#readme"
+}
